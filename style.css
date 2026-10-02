@@ -1,0 +1,218 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin-right: 1rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  margin-top: 0.5rem;
+}
+
+.buttons > * {
+  margin-right: 1rem;
+}
+
+.btn-blue,
+.btn-white {
+  font-size: 18px;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn-blue {
+  background-color: rgba(23, 23, 255, 0.7);
+  color: white;
+  border: none;
+}
+
+.btn-white {
+  background-color: white;
+  border: 1px solid lightgray;
+}
+
+header {
+  font-size: 18px;
+  width: 70vw;
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+
+#logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+header input {
+  font-size: 20px;
+  padding: 4px;
+  width: 300px;
+}
+
+header input::placeholder {
+  text-align: right;
+}
+
+#modern {
+  font-size: 12px;
+}
+
+#rules {
+  color: rgb(59, 59, 253);
+}
+
+img {
+  width: 400px;
+  padding-top: 2rem;
+}
+
+#hero {
+  background-color: rgba(175, 202, 254, 0.6);
+  zoom: 1.25;
+}
+
+#hero-container {
+  width: 70%;
+  display: flex;
+}
+
+#hero div {
+  margin: auto;
+}
+
+#hero-container > div > * {
+  margin-bottom: 1rem;
+}
+
+#hero p {
+  width: 50ch;
+}
+
+#four-cards {
+  width: 83%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+#four-cards > div {
+  display: flex;
+  width: 43ch;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+h3 {
+  font-size: 16px;
+  padding-bottom: 5px;
+  color: black;
+}
+
+.card-text {
+  color: rgb(98, 97, 97);
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+#fast {
+  background-color: lightblue;
+}
+
+#secure {
+  background-color: rgb(166, 233, 210);
+}
+
+#transparent {
+  background-color: rgb(252, 180, 45);
+}
+
+#available {
+  background-color: rgb(248, 228, 248);
+}
+
+#lower-container {
+  width: 100vw;
+  height: 20vw;
+  background-color: rgba(190, 213, 255, 0.4);
+}
+
+#konto {
+  width: 70%;
+  margin: 1rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#our-products {
+  font-size: 12px;
+}
+
+h2 {
+  margin: 0.5rem;
+}
+
+#three-cards {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+#three-cards > div {
+  background-color: aliceblue;
+  padding: 2rem;
+  border-radius: 20px;
+  display: flex;
+  gap: 1rem;
+  width: 50ch;
+}
+
+#giro {
+  background-color: lightblue;
+}
+
+#cards {
+  background-color: rgb(166, 233, 210);
+}
+
+#transactions {
+  background-color: rgb(248, 228, 248);
+}
+
+.arrow {
+  background-color: rgb(217, 244, 253);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3rem;
+  color: blue;
+}
